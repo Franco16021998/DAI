@@ -10,7 +10,7 @@
             <div class="card">
                 <div class="card-body">
                     <h5 class="card-title">
-                        <a href="{{ action('PostController@show', $post->id) }}">{{ $post->title }}</a>
+                        <a href="{{ action('PostController@today', $post->id) }}">{{ $post->title }}</a>
                     </h5>
                 </div>
                 <img src="{{ asset($post->image) }}" class="card-img-top" alt="...">
